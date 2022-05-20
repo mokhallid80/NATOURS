@@ -9,3 +9,8 @@ images sizes according to the device the user is using so that useres have a smo
 # Credits 
 All of the styling ideas and components are inspired from Jonas Schmedtmann. I have only done the implementation.
 
+
+# Usage 
+- Run npm install.
+- Open the index.html in any browser.
+
