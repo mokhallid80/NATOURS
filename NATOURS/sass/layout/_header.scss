@@ -1,0 +1,29 @@
+.header {
+    height: 95vh;
+    background-image: linear-gradient(to right bottom, rgba($color-primary-light, 0.75),rgba($color-primary-dark, 0.75)), url('../img/hero.jpg');
+    background-size: cover;
+    background-position: top;
+    clip-path: polygon(0 0, 100% 0%, 100% 75vh, 0 100%);
+    position: relative;
+    @include respond(phone){
+        clip-path: polygon(0 0, 100% 0%, 100% 85vh, 0 100%);
+    }
+    &ــlogo-box{
+        position: absolute;
+        top: 4rem;
+        left: 4rem;
+    }
+    &ــlogo{
+        height: 3.5rem;
+    }
+    &ــlogo-box:hover .headerــlogo{
+        animation: moveInRight 1s ease-out;
+    }
+    &ــtext-box{
+        position: absolute;
+        top:40%;
+        left:50%;
+        transform:translate(-50%, -50%);
+        text-align: center;
+    }
+}

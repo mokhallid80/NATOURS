@@ -1,0 +1,27 @@
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
+@import "base/animation";
+@import "base/base";
+@import "base/typography";
+@import "base/utilities";
+
+@import "components/button";
+@import "components/composition";
+@import "components/feature-box";
+@import "components/card";
+@import "components/story";
+@import "components/bg-video";
+@import "components/forms";
+@import "components/popup";
+
+
+@import "pages/home";
+
+
+     
+@import "layout/header";
+@import "/Users/mohamedkhallid/Downloads/advanced-css-course-master/Natours/starter/sass/layout/_grid.scss";
+@import "/Users/mohamedkhallid/Downloads/advanced-css-course-master/Natours/starter/sass/layout/_footer.scss";
+@import "/Users/mohamedkhallid/Downloads/advanced-css-course-master/Natours/starter/sass/layout/_navigation.scss";
