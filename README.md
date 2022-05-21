@@ -14,5 +14,5 @@ All of the styling ideas and components are inspired from Jonas Schmedtmann. I h
 - Run npm install.
 - Open index.html in any browser.
 
-# Live Demo
+# Demo Video
 https://youtu.be/Nn7OEoMgMKk
